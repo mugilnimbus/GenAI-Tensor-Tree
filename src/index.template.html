@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LLM Architecture — interactive atlas</title>
+<meta name="description" content="Interactive atlas of LLM architectures: decoder layer, full model, MHA/MQA/GQA, sliding window, MoE, encoder/decoder families, KV cache and prefill vs decode.">
+<style>
+/*__CSS__*/
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs id="gdefs"></defs></svg>
+<header class="top"><div class="wrap top-in">
+  <a class="brand" href="#overview"><span id="logo"></span><span><b>Generative AI Atlas</b><small>interactive · tensor shapes · attention · inference</small></span></a>
+  <div id="crumb" aria-live="polite"></div><button class="hbtn" id="treeBtn" type="button" aria-label="Show architecture tree">☰ Tree</button><button class="hbtn" id="themeBtn" type="button"></button>
+</div></header>
+<div id="shell"><aside id="tree" aria-label="Architecture tree"><h2>Architecture tree</h2><nav id="nav"></nav></aside><div id="content"><div class="wrap" id="cfgwrap"><details class="card cfg" open><summary>Model configuration — every shape, parameter count and cost below is computed from these values</summary><div class="cfgrow" id="cfg"></div></details></div>
+<main class="wrap" id="main"></main>
+<footer class="wrap foot">Built from “LLM arch 3D.png” and the SVG atlas. Shapes follow the notation T = sequence length, D/d = model width, H = query heads, d<sub>h</sub> = head dimension, M/d<sub>ff</sub> = MLP width, V = vocabulary, E = experts. Cost figures are idealised estimates for learning, not benchmarks.</footer>
+</div></div><div id="toast" role="status" aria-live="polite"></div>
+<script>
+/*__JS__*/
+</script>
+</body>
+</html>

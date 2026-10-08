@@ -2,6 +2,12 @@
 
 **Live site: https://mugilnimbus.github.io/GenAI-Tensor-Tree/**
 
+Jump straight in:
+
+- [Overview tree](https://mugilnimbus.github.io/GenAI-Tensor-Tree/#overview) — every technique and a real model that uses it
+- [Every operation, step by step](https://mugilnimbus.github.io/GenAI-Tensor-Tree/#steps) — one architecture, or two side by side
+- [Tensor graph](https://mugilnimbus.github.io/GenAI-Tensor-Tree/#graph) — all tensors of an architecture as one connected graph
+
 An interactive, single-page atlas of LLM and generative-AI architectures: a tree of every technique with a real model
 that uses it, to-scale tensor diagrams, every matrix operation step by step, tensor graphs, formulas and sources.
 

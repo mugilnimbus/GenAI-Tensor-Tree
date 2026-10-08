@@ -112,7 +112,7 @@ function afterRoute(id,sub,root){
 }
 const LT=()=>document.body.classList.contains('light');
 (function(){
-  let th='dark';try{th=localStorage.getItem('llm-theme')||'dark';}catch(e){}
+  let th='light';try{th=localStorage.getItem('llm-theme')||'light';}catch(e){}
   const apply=()=>{document.body.classList.toggle('light',th==='light');$('#themeBtn').textContent=th==='light'?'● Black theme':'○ White theme';};
   apply();
   $('#themeBtn').addEventListener('click',()=>{th=th==='light'?'dark':'light';try{localStorage.setItem('llm-theme',th);}catch(e){}apply();route();});

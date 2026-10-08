@@ -2,7 +2,7 @@
 :root{--pan:#0b1626;--res:#72d945;--act:#45c1dd;--w:#a645dc;--mask:#d6459b;--prob:#45d984;--tok:#d6cc45;--diff:#ffffff;--accent:#4a55e0}
 .sep{width:1px;align-self:stretch;background:var(--line)}
 .seg button.on,.seg a.on,.seg .on{background:linear-gradient(180deg,#5b66f0,#3d47c4);color:#fff}
-.archhead a.back{color:#9aa3ff;font-weight:600;text-decoration:none}.archhead a.back:hover{text-decoration:underline}
+.archhead a.back{color:var(--accent);font-weight:600;text-decoration:none}.archhead a.back:hover{text-decoration:underline}
 .cols{display:grid;gap:16px;align-items:start}
 .cols.two{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
 @media(max-width:1000px){.cols.two{grid-template-columns:1fr}}
